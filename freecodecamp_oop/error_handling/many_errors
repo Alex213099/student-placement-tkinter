@@ -1,0 +1,20 @@
+a=5
+b=2
+
+try:
+    print("resource open")
+    print(a/b)
+    k=int(input("enter a number "))
+    print(k)
+
+except ValueError:
+    print("Invalid Input , Check your input again")
+
+except ZeroDivisionError:
+    print("you cannot divide a number by zero")
+
+except Exception as e:
+    print("something went wrong",e)
+
+finally:
+    print("resource closed")

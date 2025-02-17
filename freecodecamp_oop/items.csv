@@ -1,0 +1,6 @@
+name,price,quantity
+'phone' ,100 , 5 ,
+'laptop' ,500 , 8 , Item
+'ps' ,600 , 8 , Item
+'charger' ,400 , 4 , Item
+'car' ,4000 , 9
